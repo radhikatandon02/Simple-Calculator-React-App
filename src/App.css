@@ -1,11 +1,25 @@
 * {
   font-family: sans-serif;
+  background:#f2f3f7;
 }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 150px 300px 10px 300px;
+  border-radius: 33px;
+}
+
+
 input,
 button {
   font-size: 20px;
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 input {
   display: block;
